@@ -9,9 +9,9 @@ You can set environment variable `NODE_ENV` to `production` for testing in dev m
 - Add `@netsells/nuxt-hotjar` to `modules` section of `nuxt.config.js`
 ```js
 modules: [
-    ['@netsells/nuxt-hotjar', { 
-        id: 'hjid', 
-        sv: 'hjsv',
+    ['@netsells/nuxt-hotjar', {
+        id: 'hjid',
+        sv: 'hjsv'
     }],
 ]
 ```
